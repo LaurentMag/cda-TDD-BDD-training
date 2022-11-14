@@ -1,0 +1,33 @@
+{
+  "name": "calculatrice-tdd",
+  "version": "1.0.0",
+  "description": "CDA tdd testing",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "npx tsc",
+    "start": "npm run build && node ."
+  },
+  "keywords": [
+    "tdd",
+    "jest",
+    "node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaurentMag/cda-TDD-BDD-training.git"
+  },
+  "author": "LaurentMag",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LaurentMag/cda-TDD-BDD-training/issues"
+  },
+  "homepage": "https://github.com/LaurentMag/cda-TDD-BDD-training#readme",
+  "dependencies": {
+    "jest": "^29.3.1",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "ts-jest": "^29.0.3"
+  }
+}
